@@ -27,6 +27,19 @@
     list-style-type: none;
     padding: 0;
   }
+
+  .row{
+    display: flex;
+    
+}
+
+.column{
+    
+    flex: 50%;
+    height: 50%;
+    margin: 10px;
+    
+}
   
   article {
     float: left;

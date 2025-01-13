@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ClassX</title>
+
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                margin: 10%;
+                padding: 0;
+                margin-top: 5px;
+            }
+            .column{
+                float: left;
+                width: 50%;
+                display: flex;
+                margin: 10px;
+                
+            }
+            .row{
+                display: flex;
+                
+            }
+            .row:after{
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            .rowcolumn{
+                display: block;
+                
+                border-color: red;
+                border-style: solid;
+                border-width: 5px;
+            }
+
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: x-large;
+            }
+            a:hover{
+                color: red;
+            }
+            .box {
+                display: block;
+                border-color: red;
+                border-style: solid;
+                border-width: 5px;
+                padding: 10px;
+                width: 100%;
+                padding: 10px;
+                border: 1px solid black;
+               
+                border-radius: 5px;
+                margin-top: 10px; ;
+            }
+
+            footer{
+                text-align: center;
+            }
+            input[type=text], input[type=password], label, input[type=submit]{
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                box-sizing: border-box;
+                font-size: x-large;
+                background-color: red;
+            }
+            input[type=submit]{
+                background-color: #4CAF50;
+        </style>
+    </head>
+
+    <body>
+        <div class="rowcolumn">
+            <div class="row">
+                <div class ="box" style="background-color: bisque;">
+                    <img src = "https://logo.clearbit.com/youtube.com" alt="Website Logo" style="border-radius: 100%; height: 75%; width: 5.5%; display: inline-block; padding: 10px;">
+                </div>
+            </div>
+            <div class="row">
+                <div class ="box" style="background-color: bisque;">
+                <a href="index.html">Home &nbsp;</a>
+                <a href="carrier.html">Carrier &nbsp;</a>
+                <a href="pricing.html">Pricing &nbsp;</a>
+                <a href="about.html">About &nbsp;</a>
+                <br/>
+                <br/>
+                </div>
+            </div>
+        <div class="row">
+            <div class="column">
+                <div class ="box">
+                    <div class="row">
+                        <div class = "column">
+                            <label for="email">Login:</label>
+                        </div>
+                        <div class = "column">
+                            <input type="text" id="email" name="email">
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="row">
+                        <div class = "column">
+                            <label for="password">Password:</label>
+                        </div>
+                        <div class = "column">
+                            <input type="password" id="email" name="email">
+                        </div></div>
+                        <div class="row">
+                            
+                        <input type="submit" value="Login">
+                        </div>
+
+                        <div class="row">
+                        <div class = "column">
+                            <label for="password">Password:</label>
+                        </div>
+                        <div class = "column">
+                            <input type="password" id="email" name="email">
+                        </div></div>
+                        <div class="row">
+                            
+                        <input type="submit" value="Login">
+                        </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class ="box">
+                <a href="index.html">Home &nbsp;</a>
+                <a href="carrier.html">Carrier &nbsp;</a>
+                <a href="pricing.html">Pricing &nbsp;</a>
+                <a href="about.html">About &nbsp;</a>
+                <br/>
+                <br/></div>
+            </div>
+        </div></div>
+        <footer>
+            
+            <br/>
+            <p>&copy; 2021 ClassX</p>
+
+        </footer>
+        
+     </body>
+
+</html>
